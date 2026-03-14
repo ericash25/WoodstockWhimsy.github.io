@@ -1,0 +1,30 @@
+{
+  "title": "Bang Bang Chicken Bahn Mi",
+  "slug": "bang-bang-chicken-bahn-mi",
+  "file": "bang-bang-chicken-bahn-mi.json",
+  "tags": [
+    "lunch",
+    "dinner"
+  ],
+  "ingredients": [
+    "12 oz chicken breast, cubed",
+    "4 ciabatta rolls",
+    "4 tbsp mayonnaise",
+    "1 tbsp sriracha",
+    "sweet & sour sauce",
+    "1 tbsp paprika",
+    "1 tbsp garlic powder",
+    "1 tbsp onion powder",
+    "1 tbsp salt",
+    "carrots, sliced",
+    "daikons, sliced",
+    "1 part white vinegar",
+    "1 part water",
+    "1/2 cup sugar"
+  ],
+  "info_html": "<ul>\n<li>Time: TBD</li>\n<li>Servings: TBD</li>\n</ul>",
+  "ingredients_html": "<p>Sandwich</p>\n<ul>\n<li>12 oz chicken breast, cubed</li>\n<li>4 ciabatta rolls</li>\n</ul>\n<p>Bang Bang Sauce</p>\n<ul>\n<li>4 TBSP mayonnaise</li>\n<li>1 TBSP sriracha</li>\n<li>Sweet &amp; sour sauce</li>\n<li>1 TBSP paprika</li>\n<li>1 TBSP garlic powder</li>\n<li>1 TBSP onion powder</li>\n<li>1 TBSP salt</li>\n</ul>\n<p>Pickled Daikons and Carrots</p>\n<ul>\n<li>carrots, sliced</li>\n<li>daikons, sliced</li>\n<li>1 part white vinegar</li>\n<li>1 part water</li>\n<li>1/2 cup sugar</li>\n</ul>",
+  "steps_html": "<ol>\n<li>In a bowl, add carrots, daikons, vinegar, water, and sugar. Mix and let sit for at least 1 hour.</li>\n<li>In a small bowl, add mayo, sriracha, sweet &amp; sour sauce, paprika, garlic powder, onion powder, and salt, mix well. Set a little bit to the side for topping.</li>\n<li>Mix cubed chicken in with the bang bang sauce, then skewer them. Airfry at 385\u00b0F for about 12 minutes, flipping halfway through, or until cooked. Coat with remaining sauce</li>\n<li>Assemble chicken and pickled daikons and carrots on the sandwich.</li>\n</ol>",
+  "notes_html": "<ul>\n<li>Need a note</li>\n</ul>",
+  "basedon_html": "<ul>\n<li>https://www.instagram.com/reel/C99335UJOrq/?igsh=MTQ5am1id2VpZ3FwaA==</li>\n</ul>"
+}

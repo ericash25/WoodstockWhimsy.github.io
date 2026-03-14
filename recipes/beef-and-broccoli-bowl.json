@@ -1,0 +1,25 @@
+{
+  "title": "Beef and Broccoli Bowl",
+  "slug": "beef-and-broccoli-bowl",
+  "file": "beef-and-broccoli-bowl.json",
+  "tags": [],
+  "ingredients": [
+    "1 lb steak (sirloin or lean flank)",
+    "3 or 4 heads of broccoli",
+    "1/2 cup beef stock",
+    "lime (garnish)",
+    "green onion (garnish)",
+    "jasmine rice",
+    "1.5 tbsp olive oil",
+    "1.5 tbsp minced garlic",
+    "1 tbsp ginger",
+    "3 tbsp soy sauce",
+    "3 tbsp sugar",
+    "2 tbsp corn starch (stir in at the end with an ice cube to avoid clumping)"
+  ],
+  "info_html": "<ul>\n<li>Time: 30-ish minutes</li>\n<li>Servings: about 3 extra meals, for two people</li>\n</ul>",
+  "ingredients_html": "<ul>\n<li>1 lb steak (sirloin or lean flank)</li>\n<li>3 or 4 heads of broccoli</li>\n<li>1/2 cup beef stock</li>\n<li>lime (garnish)</li>\n<li>green onion (garnish)</li>\n<li>jasmine rice</li>\n<li>1.5 tbsp olive oil</li>\n<li>1.5 tbsp minced garlic</li>\n</ul>\n<p>sauce</p>\n<ul>\n<li>1 tbsp ginger</li>\n<li>3 tbsp soy sauce</li>\n<li>3 tbsp sugar</li>\n<li>2 tbsp corn starch (stir in at the end with an ice cube to avoid clumping)</li>\n</ul>",
+  "steps_html": "<p>Sous vide (optional)</p>\n<ol>\n<li>Make diagonal slices in both sides of the meat about 1/4 inch deep and generously salt and pepper</li>\n<li>Seal with water displacement</li>\n<li>Cook for 90 minutes at 131 F</li>\n<li>Once done, remove from bag and pat dry</li>\n<li>Heat a cast iron to super hot with some canola oil and sear each side for exactly 1 minute</li>\n<li>Let rest and then slice (1/4in x 2in) and add to everything else at the end to warm it back up</li>\n</ol>\n<p>Prep</p>\n<ol>\n<li>Start rice</li>\n<li>Slice steak in pieces 1/4 inch thick and 2 inches long (if not using sous vide)</li>\n<li>Rinse and cut broccoli</li>\n<li>Mince ginger</li>\n</ol>\n<p>Cook</p>\n<p><em>start with about 15 minutes left on the sous vide</em></p>\n<ol>\n<li>Start rice</li>\n<li>Make sauce and set aside but don't add the cornstarch yet</li>\n<li>Heat large nonstick skillet or wok over medium heat and add olive oil. After hot cook garlic for 1-2 minutes.</li>\n<li>If not using sous vide, increase to med-high or high and add steak. Cook for 3-4 minutes. Set aside meat once cooked through.</li>\n<li>Reduce to medium. Add cornstarch to sauce, stir to avoid clumping, then add to pan. Then add broccoli.</li>\n<li>Cook and stir for 2 minutes, remove from heat, cover, and allow residual heat to cook for 4 more minutes.</li>\n<li>Mix meat back in to warm it up</li>\n<li>Garnish with lime wedges and chopped green onions</li>\n</ol>",
+  "notes_html": "<ul>\n<li>Healthy things to swap in:<ul>\n<li>brown rice for jasmine rice</li>\n<li>arrowroot powder instead of cornstarch</li>\n<li>fake sugar (stevia in the raw or coconut sugar) instead of real sugar</li>\n<li>low sodium beef stock and soy sauce</li>\n</ul>\n</li>\n</ul>",
+  "basedon_html": "<ul>\n<li>https://fitmencook.com/</li>\n<li>https://www.youtube.com/watch?v=SBiBmOIzO1U&amp;t=433</li>\n</ul>"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Air Fryer Broccoli",
+  "slug": "air-fryer-broccoli",
+  "file": "air-fryer-broccoli.json",
+  "tags": [],
+  "ingredients": [
+    "1 head broccoli",
+    "2 tbsp extra-virgin olive oil",
+    "1/2 tsp garlic powder",
+    "1/2 tsp kosher salt",
+    "1/4 tsp freshly ground black pepper"
+  ],
+  "info_html": "<ul>\n<li>Time: 12 minutes (3 min prep, 9 min cook)</li>\n<li>Servings: 4 servings</li>\n</ul>",
+  "ingredients_html": "<ul>\n<li>1 head broccoli</li>\n<li>2 tbsp extra-virgin olive oil</li>\n<li>1/2 tsp garlic powder</li>\n<li>1/2 tsp kosher salt</li>\n<li>1/4 tsp freshly ground black pepper</li>\n</ul>",
+  "steps_html": "<p>Prep</p>\n<ol>\n<li>Cut broccoli into florets</li>\n</ol>\n<p>Cook</p>\n<ol>\n<li>Preheat air fryer to 390 F</li>\n<li>In a large mixing bowl, combine broccoli florets, olive oil, garlic powder, salt, and pepper</li>\n<li>Toss until broccoli is evenly coated</li>\n<li>Transfer broccoli to air fryer basket in a single layer (cook in batches if needed to avoid crowding)</li>\n<li>Air fry for 7-9 minutes, shaking the basket halfway through</li>\n<li>Check for doneness at 8 minutes - broccoli should be crisp-tender with lightly browned edges</li>\n</ol>",
+  "notes_html": "<ul>\n<li>Avoid crowding the basket - cook in batches if necessary to prevent steaming instead of air frying</li>\n<li>For softer, steamed broccoli rather than crispy texture, add 1 tbsp water to the air fryer basket before cooking</li>\n<li>Optimal cook time is around 8 minutes; check doneness when shaking basket halfway through</li>\n</ul>",
+  "basedon_html": "<ul>\n<li>https://downshiftology.com/recipes/air-fryer-broccoli/</li>\n</ul>"
+}
