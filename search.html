@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Woodstock Whimsy</title>
+
+	<meta charset="UTF-8">
+
+	<link href='stylesheet.css' rel='stylesheet'>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	
+	<script src="searchScript.js" defer></script>
+</head>
+
+<body>
+    <header class='banner'>
+		<img src="images/chef-woodstock.png" class="banner-img">
+		<div class="banner-text">
+			<h1 class="banner-title">Woodstock Whimsy</h1>
+			<h2 class="banner-subtitle">Anna and Eric's Personal Recipe Collection</h2>
+		</div>
+		<img src="images/woodstock-st-sign.png" class="banner-img">
+	</header>
+
+	<nav id="main-menu">
+		<a href="./">Home</a>
+		<a href="./search.html">Search</a>
+	</nav>
+
+    <main>
+        <div id="searchBar">
+            <input id="searchBarInput" type="text" placeholder="Search recipes, ingredients, or categories...">
+			<div id="searchSuggestions" class="suggestions hidden"></div>
+        </div>
+		<div id="tagSection">
+			<h2>Categories</h2>
+			<ul id="tagList"> <!-- Recipe tags will go here --> </ul>
+		</div>
+
+		<div id="searchResults" class="hidden">
+			<button id="backButton"><- Back</button>
+			<ul id="results"> <!-- Search results will go here --> </ul>
+		</div>
+    </main>
+
+</body>
+
+</html>
