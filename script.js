@@ -45,7 +45,7 @@ async function loadRecipeList() {
             listHTML += "<li>";
         }
 
-        listHTML += `<a href="recipePage.html?recipe=${slug}">${name}</a></li>`;
+        listHTML += `<a href="recipepage.html?recipe=${slug}">${name}</a></li>`;
 
         prevLetter = firstLetter;
         

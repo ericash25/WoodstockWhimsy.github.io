@@ -125,7 +125,7 @@ function showResults(recipeList, tagName=null){
         
         li.innerHTML = `
         <div class="recipeCard">
-            <a href="recipePage.html?recipe=${recipe.slug}">
+            <a href="recipepage.html?recipe=${recipe.slug}">
                 <h3>${recipe.title}</h3>
             </a>
         </div>
