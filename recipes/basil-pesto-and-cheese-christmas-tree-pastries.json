@@ -1,0 +1,86 @@
+{
+  "title": "Basil Pesto & Cheese Christmas Tree Pastries",
+  "slug": "basil-pesto-and-cheese-christmas-tree-pastries",
+  "description": "Simple and delicious pastry appetizer!",
+  "info": {
+    "time": "Time: TBD",
+    "servings": "Servings: TBD"
+  },
+  "ingredients": [
+    {
+      "section": "Main",
+      "items": [
+        {
+          "number": 1,
+          "text": "2 puff pastries",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 2,
+          "text": "basil pesto",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 3,
+          "text": "sliced cheese of choice",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 4,
+          "text": "butter, melted",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 5,
+          "text": "garlic cloves, minced",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 deg F.",
+      "ingredients": []
+    },
+    {
+      "text": "Layout sheet of puff pastry. Spread basil pesto across entire puff pastry, then lay out the cheese. Place remaining sheet of puff pastry on top.",
+      "ingredients": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "text": "Slice the stack into 1 inch wide strips. Fold each strip back and forth, creating a christmas tree shape, and place a toothpick through the center.",
+      "ingredients": []
+    },
+    {
+      "text": "Lay down the christmas trees on a parchment paper lined baking sheet.",
+      "ingredients": []
+    },
+    {
+      "text": "In a bowl, mix melted butter and minced garlic. Brush garlic buttter over the pastries.",
+      "ingredients": [
+        4,
+        5
+      ]
+    },
+    {
+      "text": "Bake for x minutes, or until cheeses start to brown.",
+      "ingredients": []
+    }
+  ],
+  "notes": [
+    "Great cheese choices: American, Pepper Jack."
+  ],
+  "basedon": [
+    "https://www.instagram.com/reel/DCXKPgPSmmH/?igsh=MWRwenlzbXc5dnIycQ=="
+  ],
+  "images": []
+}

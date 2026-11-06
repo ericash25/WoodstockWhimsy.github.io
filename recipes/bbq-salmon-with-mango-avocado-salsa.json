@@ -1,34 +1,188 @@
 {
   "title": "BBQ Salmon with Mango Avocado Salsa",
   "slug": "bbq-salmon-with-mango-avocado-salsa",
-  "file": "bbq-salmon-with-mango-avocado-salsa.json",
-  "tags": [
-    "dinner",
-    "easy"
-  ],
+  "description": "Delicious salmon rub and mango avocado salsa.",
+  "info": {
+    "time": "Time: TBD",
+    "servings": "Servings: 2-4 portions (depending on how much salmon)"
+  },
   "ingredients": [
-    "1-2 lbs fresh salmon",
-    "2 tbsp brown sugar",
-    "2 tsp smoked paprika",
-    "2 tsp onion powder",
-    "1 tsp garlic powder",
-    "1/2 tsp chili powder",
-    "1/2 tsp kosher salt",
-    "2 tbsp olive oil",
-    "2 mangoes, diced",
-    "1 avocado, diced",
-    "1/4 cup cilantro, minced",
-    "1/4 cup red onion, minced",
-    "1/2 jalepeno, minced",
-    "1 tsp honey",
-    "2 tbsp lime juice",
-    "1 tsp lime zest",
-    "salt to tast",
-    "1-1/2 cups rice"
+    {
+      "section": "Salmon:",
+      "items": [
+        {
+          "number": 1,
+          "text": "1-2 lbs fresh salmon",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 2,
+          "text": "2 TBSP brown sugar",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 3,
+          "text": "2 tsp smoked paprika",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 4,
+          "text": "2 tsp onion powder",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 5,
+          "text": "1 tsp garlic powder",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 6,
+          "text": "1/2 tsp chili powder",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 7,
+          "text": "1/2 tsp kosher salt",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 8,
+          "text": "2 TBSP olive oil",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "section": "Mango Avocado Salsa:",
+      "items": [
+        {
+          "number": 9,
+          "text": "2 mangoes, diced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 10,
+          "text": "1 avocado, diced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 11,
+          "text": "1/4 cup cilantro, minced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 12,
+          "text": "1/4 cup red onion, minced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 13,
+          "text": "1/2 jalepeno, minced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 14,
+          "text": "1 tsp honey",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 15,
+          "text": "2 TBSP lime juice",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 16,
+          "text": "1 tsp lime zest",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 17,
+          "text": "salt to taste",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "section": "For serving:",
+      "items": [
+        {
+          "number": 18,
+          "text": "1-1/2 cups rice",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    }
   ],
-  "info_html": "<ul>\n<li>Time: TBD</li>\n<li>Servings: 2-4 portions (depending on how much salmon)</li>\n</ul>",
-  "ingredients_html": "<p>Salmon:</p>\n<ul>\n<li>1-2 lbs fresh salmon</li>\n<li>2 TBSP brown sugar</li>\n<li>2 tsp smoked paprika</li>\n<li>2 tsp onion powder</li>\n<li>1 tsp garlic powder</li>\n<li>1/2 tsp chili powder</li>\n<li>1/2 tsp kosher salt</li>\n<li>2 TBSP olive oil</li>\n</ul>\n<p>Mango Avocado Salsa:</p>\n<ul>\n<li>2 mangoes, diced</li>\n<li>1 avocado, diced</li>\n<li>1/4 cup cilantro, minced</li>\n<li>1/4 cup red onion, minced</li>\n<li>1/2 jalepeno, minced</li>\n<li>1 tsp honey</li>\n<li>2 TBSP lime juice</li>\n<li>1 tsp lime zest</li>\n<li>salt to tast</li>\n</ul>\n<p>For serving:</p>\n<ul>\n<li>1-1/2 cups rice</li>\n</ul>",
-  "steps_html": "<ol>\n<li>Mango salsa: In a medium bowl, mix all ingredients. Taste and adjust seasoning.</li>\n<li>Cook rice according to package instructions.</li>\n<li>Preheat oven to 475 deg F, and line a baking sheet with foil.</li>\n<li>In a small bowl, mix brown sugar, smoked paprika, onion powder, garlic powder, chili powder, salt, and olive oil to make a paste. Rub paste over the top of the salmon.</li>\n<li>Bake for 6-12 minutes, or until fully cooked.</li>\n<li>Serve rice, salmon, and mango avocado salsa in a bowl and enjoy!</li>\n</ol>",
-  "notes_html": "<ul>\n<li>Need notes</li>\n</ul>",
-  "basedon_html": "<ul>\n<li>https://pinchofyum.com/bbq-salmon-mango-salsa</li>\n</ul>"
+  "steps": [
+    {
+      "text": "Mango salsa: In a medium bowl, mix all ingredients. Taste and adjust seasoning.",
+      "ingredients": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "text": "Cook rice according to package instructions.",
+      "ingredients": [
+        18
+      ]
+    },
+    {
+      "text": "Preheat oven to 475 deg F, and line a baking sheet with foil.",
+      "ingredients": []
+    },
+    {
+      "text": "In a small bowl, mix brown sugar, smoked paprika, onion powder, garlic powder, chili powder, salt, and olive oil to make a paste. Rub paste over the top of the salmon.",
+      "ingredients": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "text": "Bake for 6-12 minutes, or until fully cooked.",
+      "ingredients": []
+    },
+    {
+      "text": "Serve rice, salmon, and mango avocado salsa in a bowl and enjoy!",
+      "ingredients": []
+    }
+  ],
+  "notes": [
+    "Need notes"
+  ],
+  "basedon": [
+    "https://pinchofyum.com/bbq-salmon-mango-salsa"
+  ],
+  "images": []
 }

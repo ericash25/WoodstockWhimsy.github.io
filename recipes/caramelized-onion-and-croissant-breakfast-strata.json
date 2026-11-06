@@ -1,0 +1,130 @@
+{
+  "title": "Caramelized Onion & Croissant Breakfast Strata",
+  "slug": "caramelized-onion-and-croissant-breakfast-strata",
+  "description": "Delicious breakfast strata",
+  "info": {
+    "time": "Time: TBD",
+    "servings": "Servings: TBD"
+  },
+  "ingredients": [
+    {
+      "section": "Main",
+      "items": [
+        {
+          "number": 1,
+          "text": "10-12 slices of bacon",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 2,
+          "text": "10 eggs",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 3,
+          "text": "1/2 tsp salt",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 4,
+          "text": "Black pepper",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 5,
+          "text": "1/2 tsp garlic powder",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 6,
+          "text": "1 TBSP dijon mustard",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 7,
+          "text": "1 large white onion, thinly sliced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 8,
+          "text": "2 TBSP butter",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 9,
+          "text": "5-6 mini croissants, torn into chucks",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 10,
+          "text": "3/4 cup cheddar cheese, shredded",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 11,
+          "text": "3-4 TBSP cream cheese",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 400\u2109.",
+      "ingredients": []
+    },
+    {
+      "text": "Lay bacon on an aluminum foil lined baking sheet. Bake for 7 minutes, flip, and continue baking for another 7 minutes. Once fully cooked, allow to cool then chop.",
+      "ingredients": [
+        1
+      ]
+    },
+    {
+      "text": "In a large skillet over medium-low heat, melt butter. Add onions and cook, stirring occassionally, until onions are caramalized.",
+      "ingredients": [
+        7,
+        8
+      ]
+    },
+    {
+      "text": "In a medium bowl, add eggs, garlic powder, salt, pepper, and dijon mustard. Whisk to combine.",
+      "ingredients": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "text": "Spray a 9 x 13 baking dish with oil. Place a layer of caramalized onion and chopped bacon into the bottom of the pan. Pour egg mixture in and then add another lay of onions and bacon. Top with cheddar cheese, croissant pieces, and spoonfuls of cream cheese.",
+      "ingredients": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "text": "Bake until eggs are fully cooked, about 30 minutes.",
+      "ingredients": []
+    }
+  ],
+  "notes": [
+    "Prepping bacon and onions the night before makes it super simple to make in the morning."
+  ],
+  "basedon": [
+    "https://www.instagram.com/reel/C4tsH-PMrr9/?igsh=YmFoMXFtNHVvaHow"
+  ],
+  "images": []
+}

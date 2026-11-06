@@ -1,0 +1,211 @@
+{
+  "title": "Broccoli & Couscous Salad",
+  "slug": "broccoli-and-couscous-salad",
+  "description": "No description yet.",
+  "info": {
+    "time": "Time: TBD",
+    "servings": "Servings: TBD"
+  },
+  "ingredients": [
+    {
+      "section": "Bake",
+      "items": [
+        {
+          "number": 1,
+          "text": "2 heads broccoli florets",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 2,
+          "text": "1 15 oz can chickpeas",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 3,
+          "text": "2 TBSP paprika",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 4,
+          "text": "1 tsp garlic powder",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 5,
+          "text": "1 tsp dried parsley",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 6,
+          "text": "1/2 tsp salt",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 7,
+          "text": "1/2 tsp black pepper",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 8,
+          "text": "1 TBSP olive oil",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "section": "Couscous",
+      "items": [
+        {
+          "number": 9,
+          "text": "1 cup pearl couscous",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 10,
+          "text": "1-1/4 cup vegetable broth",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "section": "Salad",
+      "items": [
+        {
+          "number": 11,
+          "text": "1/4 cup pistachios, chopped",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 12,
+          "text": "1 handful dill, chopped",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 13,
+          "text": "1 handful fresh parsley",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 14,
+          "text": "1/2 cup feta, crumbled",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "section": "Tahini Dressing",
+      "items": [
+        {
+          "number": 15,
+          "text": "3 TBSP tahini",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 16,
+          "text": "2 lemons, juiced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 17,
+          "text": "1 TBSP mustard",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 18,
+          "text": "1 tsp nutritional yeast",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 19,
+          "text": "1 TBSP warm water",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 20,
+          "text": "3 TBSP olive oil",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 21,
+          "text": "Salt and pepper, to taste",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 400\u00b0F.",
+      "ingredients": []
+    },
+    {
+      "text": "Add broccoli and chickpeas to a baking sheet, and toss with olive oil, paprika, garlic powder, parsley, salt, and pepper. Roast until chickpeas are crispy and broccoli is tender, about 20 minutes.",
+      "ingredients": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "text": "While the broccoli and chickpeas cook, add couscous and broth in a sauce pan. Bring to a boil, lower the heat, cover and simmer until the couscous is cooked and the liquid is absorbed.",
+      "ingredients": [
+        9,
+        10
+      ]
+    },
+    {
+      "text": "In a jar, combine tahini dressing ingredients and shake until smooth.",
+      "ingredients": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "text": "In a large bowl, combine roasted broccoli and chickpeas, couscous, pistachios, dill, parsley, feta, and dressing. Toss and serve!",
+      "ingredients": [
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "notes": [
+    "No notes yet."
+  ],
+  "basedon": [
+    "https://plantyou.com/warm-broccoli-couscous-salad/"
+  ],
+  "images": []
+}

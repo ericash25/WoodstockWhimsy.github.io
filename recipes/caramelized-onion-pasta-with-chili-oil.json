@@ -1,31 +1,126 @@
 {
   "title": "Caramelized Onion Pasta with Chili Oil",
   "slug": "caramelized-onion-pasta-with-chili-oil",
-  "file": "caramelized-onion-pasta-with-chili-oil.json",
-  "tags": [
-    "dinner",
-    "lunch"
-  ],
+  "description": "",
+  "info": {
+    "time": "Time: 30 minutes",
+    "servings": "Servings: TBD"
+  },
   "ingredients": [
-    "12 oz edamame",
-    "1 can great northern beans",
-    "1/4 to 1/2 head of red cabbage",
-    "1 red bell pepper",
-    "1/2 avocado",
-    "3-4 scallions",
-    "1/2 bunch cilantro",
-    "chili flakes, to taste",
-    "sesame seed, to taste",
-    "1/4 cup soy sauce",
-    "2 tsp chinkiag vinegar",
-    "2-8 tbsp chili oil/crisp",
-    "1 tsp sichuan peppercorn oil",
-    "1/2 cup tahini",
-    "1-2 garlic cloves, minced"
+    {
+      "section": "Main",
+      "items": [
+        {
+          "number": 1,
+          "text": "1 lb spaghetti",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 2,
+          "text": "3 TBSP olive oil",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 3,
+          "text": "1 large red onion, thinly sliced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 4,
+          "text": "4 garlic cloves, minced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 5,
+          "text": "2 TBSP chili oil",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 6,
+          "text": "1/2 cup heavy cream",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 7,
+          "text": "1 TBSP italian seasoning",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 8,
+          "text": "Parmesan, to taste",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 9,
+          "text": "Chopped parsley, to taste",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 10,
+          "text": "Salt, to taste",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 11,
+          "text": "Black pepper, to taste",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    }
   ],
-  "info_html": "<ul>\n<li>Time: TBD</li>\n<li>Servings: TBD</li>\n</ul>",
-  "ingredients_html": "<ul>\n<li>12 oz edamame</li>\n<li>1 can great northern beans</li>\n<li>1/4 to 1/2 head of red cabbage</li>\n<li>1 red bell pepper</li>\n<li>1/2 avocado</li>\n<li>3-4 scallions</li>\n<li>1/2 bunch cilantro</li>\n<li>chili flakes, to taste</li>\n<li>sesame seed, to taste</li>\n<li>1/4 cup soy sauce</li>\n<li>2 tsp chinkiag vinegar</li>\n<li>2-8 TBSP Chili Oil/Crisp</li>\n<li>1 tsp Sichuan Peppercorn Oil</li>\n<li>1/2 cup Tahini</li>\n<li>1-2 garlic cloves, minced</li>\n</ul>",
-  "steps_html": "<ol>\n<li>Add edamame, beans, red cabbage, bell pepper, avocado, scallions, cilantro, chili flakes, and sesame seeds to a bowl.</li>\n<li>In a seperate bowl, whisk together soy sauce, vinegar, chili crisp, sichuan peppercorn oil, tahini, and garlic.</li>\n<li>Combine salad and dressing.</li>\n</ol>",
-  "notes_html": "<ul>\n<li>Wonderful umami flavor!</li>\n</ul>",
-  "basedon_html": "<ul>\n<li>Sourced from olibrandoncoaching on Instagram!</li>\n</ul>"
+  "steps": [
+    {
+      "text": "Cook spaghetti according to package instructions.",
+      "ingredients": [
+        1
+      ]
+    },
+    {
+      "text": "In a medium pan, heat olive oil over medium heat. Once hot, add onions and caramalize, about 7 minutes.",
+      "ingredients": [
+        2,
+        3
+      ]
+    },
+    {
+      "text": "Add in garlic, chili oil, and heavy cream. Remove from heat.",
+      "ingredients": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "text": "Add italian seasoning, parmesan, parsley, salt, and pepper.",
+      "ingredients": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "text": "Plate spaghetti and top with onion and chili oil sauce.",
+      "ingredients": []
+    }
+  ],
+  "notes": [
+    ""
+  ],
+  "basedon": [
+    "https://www.instagram.com/reel/C8mkpiqObcs/?igsh=OXFtZHZkcXVrYjh2"
+  ],
+  "images": []
 }

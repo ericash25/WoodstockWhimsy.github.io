@@ -1,31 +1,143 @@
 {
   "title": "Boursin Orzo with Sausage",
   "slug": "boursin-orzo-with-sausage",
-  "file": "boursin-orzo-with-sausage.json",
-  "tags": [
-    "dinner",
-    "easy"
-  ],
+  "description": "No description at this time.",
+  "info": {
+    "time": "Time: TBD",
+    "servings": "Servings: TBD"
+  },
   "ingredients": [
-    "12 oz edamame",
-    "1 can great northern beans",
-    "1/4 to 1/2 head of red cabbage",
-    "1 red bell pepper",
-    "1/2 avocado",
-    "3-4 scallions",
-    "1/2 bunch cilantro",
-    "chili flakes, to taste",
-    "sesame seed, to taste",
-    "1/4 cup soy sauce",
-    "2 tsp chinkiag vinegar",
-    "2-8 tbsp chili oil/crisp",
-    "1 tsp sichuan peppercorn oil",
-    "1/2 cup tahini",
-    "1-2 garlic cloves, minced"
+    {
+      "section": "Main",
+      "items": [
+        {
+          "number": 1,
+          "text": "4 sausages, sliced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 2,
+          "text": "1 block Boursin cheese",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 3,
+          "text": "2 cups orzo",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 4,
+          "text": "1-2 TBSP olive oil",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 5,
+          "text": "1/2 cup sundried tomatoes",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 6,
+          "text": "4 cups chicken broth",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 7,
+          "text": "1 TBSP minced garlic",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 8,
+          "text": "1/2 tsp oregano",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 9,
+          "text": "1/2 tsp red pepper flakes",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 10,
+          "text": "Pinch of salt & pepper",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 11,
+          "text": "1 handful spinach",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 12,
+          "text": "1/2 cup parmesan cheese",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 13,
+          "text": "1/2 cup heavy cream",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    }
   ],
-  "info_html": "<ul>\n<li>Time: TBD</li>\n<li>Servings: TBD</li>\n</ul>",
-  "ingredients_html": "<ul>\n<li>12 oz edamame</li>\n<li>1 can great northern beans</li>\n<li>1/4 to 1/2 head of red cabbage</li>\n<li>1 red bell pepper</li>\n<li>1/2 avocado</li>\n<li>3-4 scallions</li>\n<li>1/2 bunch cilantro</li>\n<li>chili flakes, to taste</li>\n<li>sesame seed, to taste</li>\n<li>1/4 cup soy sauce</li>\n<li>2 tsp chinkiag vinegar</li>\n<li>2-8 TBSP Chili Oil/Crisp</li>\n<li>1 tsp Sichuan Peppercorn Oil</li>\n<li>1/2 cup Tahini</li>\n<li>1-2 garlic cloves, minced</li>\n</ul>",
-  "steps_html": "<ol>\n<li>Add edamame, beans, red cabbage, bell pepper, avocado, scallions, cilantro, chili flakes, and sesame seeds to a bowl.</li>\n<li>In a seperate bowl, whisk together soy sauce, vinegar, chili crisp, sichuan peppercorn oil, tahini, and garlic.</li>\n<li>Combine salad and dressing.</li>\n</ol>",
-  "notes_html": "<ul>\n<li>Wonderful umami flavor!</li>\n</ul>",
-  "basedon_html": "<ul>\n<li>Sourced from olibrandoncoaching on Instagram!</li>\n</ul>"
+  "steps": [
+    {
+      "text": "Preheat oven to 425\u00b0F.",
+      "ingredients": []
+    },
+    {
+      "text": "Place boursin to the center of a large oven safe pot. Add orzo around it and drizzle with olive oil. Add sundried tomatoes, broth, garlic, and seasonings.",
+      "ingredients": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "text": "Gently stir around the boursin, cover, and bake for 30 minutes.",
+      "ingredients": []
+    },
+    {
+      "text": "While baking, cook sausage in a skillet and remove from heat.",
+      "ingredients": [
+        1
+      ]
+    },
+    {
+      "text": "Remove the pot from the oven and stir, then cover and bake for another 10-15 minutes, or until the orzo is cooked and the liquid is absorbed.",
+      "ingredients": []
+    },
+    {
+      "text": "Add in spinach, sausage, heavy cream, and parmesan, then enjoy!",
+      "ingredients": [
+        11,
+        12,
+        13
+      ]
+    }
+  ],
+  "notes": [
+    "Can replace olive oil with oil from sundried tomatoes."
+  ],
+  "basedon": [
+    "https://www.instagram.com/reel/DE0QagxRhZZ/?igsh=a3hnMzBtY2FmZnI0"
+  ],
+  "images": []
 }

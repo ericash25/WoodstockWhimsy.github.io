@@ -1,30 +1,145 @@
 {
   "title": "Butterbean Shakshuka",
   "slug": "butterbean-shakshuka",
-  "file": "butterbean-shakshuka.json",
-  "tags": [
-    "dinner",
-    "lunch",
-    "easy"
-  ],
+  "description": "Simple butter bean shakshuka",
+  "info": {
+    "time": "Time: 1 hour",
+    "servings": "Servings: 3 servings"
+  },
   "ingredients": [
-    "400 g chopped tomatoes",
-    "120 g onion",
-    "300 g peppers",
-    "12 ml olive oil",
-    "6 large eggs",
-    "240 g butter beans",
-    "75 g feta cheese ",
-    "smoked paprika",
-    "cayenne pepper",
-    "cumin",
-    "garlic",
-    "salt",
-    "pepper"
+    {
+      "section": "Main",
+      "items": [
+        {
+          "number": 1,
+          "text": "400 g Chopped tomatoes",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 2,
+          "text": "120 g Onion, diced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 3,
+          "text": "300 g Peppers, diced",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 4,
+          "text": "12 mL Olive Oil",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 5,
+          "text": "6 Large Eggs",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 6,
+          "text": "240 g Butter Beans",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 7,
+          "text": "75 g Feta Cheese",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 8,
+          "text": "Smoked Paprika",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 9,
+          "text": "Cayenne Pepper",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 10,
+          "text": "Cumin",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 11,
+          "text": "Garlic",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 12,
+          "text": "Salt",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 13,
+          "text": "Black pepper",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    }
   ],
-  "info_html": "<ul>\n<li>Time: 1 hour</li>\n<li>Servings: 3 servings</li>\n</ul>",
-  "ingredients_html": "<ul>\n<li>400 g Chopped tomatoes</li>\n<li>120 g Onion</li>\n<li>300 g Peppers</li>\n<li>12 mL Olive Oil</li>\n<li>6 Large Eggs</li>\n<li>240 g Butter Beans</li>\n<li>75 g Feta Cheese </li>\n<li>Smoked Paprika</li>\n<li>Cayenne Pepper</li>\n<li>Cumin</li>\n<li>Garlic</li>\n<li>Salt</li>\n<li>Pepper</li>\n</ul>",
-  "steps_html": "<p>Prep</p>\n<ol>\n<li>Dice bell peppers.</li>\n<li>Dice tomatoes if applicable.</li>\n</ol>\n<p>Cook</p>\n<ol>\n<li>Add olive oil to pan and cook down onions.</li>\n<li>Add in peppers. Season with smoked paprika, cayenne, cumin, garlic, salt, and pepper. Cook for a few minutes.</li>\n<li>Add in chopped tomatoes and butter beans.</li>\n<li>Make rough divots in the sauce and crack eggs into the divots.</li>\n<li>Cover with a lid and simmer on low until the eggs are cooked, about 6-8 minutes.</li>\n<li>Garnish with feta cheese and enjoy!</li>\n</ol>",
-  "notes_html": "<ul>\n<li>Pairs excellently with Sourdough.</li>\n</ul>",
-  "basedon_html": "<ul>\n<li>Sourced from olibrandoncoaching on Instagram!</li>\n</ul>"
+  "steps": [
+    {
+      "text": "Add olive oil to pan and cook down onions.",
+      "ingredients": [
+        2,
+        4
+      ]
+    },
+    {
+      "text": "Add in peppers. Season with smoked paprika, cayenne, cumin, garlic, salt, and pepper. Cook for a few minutes.",
+      "ingredients": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "text": "Add in chopped tomatoes and butter beans.",
+      "ingredients": [
+        1,
+        6
+      ]
+    },
+    {
+      "text": "Make rough divots in the sauce and crack eggs into the divots.",
+      "ingredients": [
+        5
+      ]
+    },
+    {
+      "text": "Cover with a lid and simmer on low until the eggs are cooked, about 6-8 minutes.",
+      "ingredients": []
+    },
+    {
+      "text": "Garnish with feta cheese and enjoy!",
+      "ingredients": [
+        7
+      ]
+    }
+  ],
+  "notes": [
+    "Pairs excellently with Sourdough."
+  ],
+  "basedon": [
+    "Sourced from olibrandoncoaching on Instagram!"
+  ],
+  "images": []
 }
