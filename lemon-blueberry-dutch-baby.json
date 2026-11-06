@@ -1,0 +1,109 @@
+{
+  "title": "Lemon Blueberry Dutch Baby",
+  "slug": "lemon-blueberry-dutch-baby",
+  "description": "Tasty breakfast treat!",
+  "info": {
+    "time": "Time: TBD",
+    "servings": "Servings: TBD"
+  },
+  "ingredients": [
+    {
+      "section": "Main",
+      "items": [
+        {
+          "number": 1,
+          "text": "4 eggs",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 2,
+          "text": "1/2 cup milk",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 3,
+          "text": "1/2 cup flour",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 4,
+          "text": "1 tsp vanilla extract",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 5,
+          "text": "1/4 tsp salt",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 6,
+          "text": "3 TBSP sugar",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 7,
+          "text": "2 TBSP melted butter",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 8,
+          "text": "Zest from 1 lemon",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 9,
+          "text": "2 TBSP butter",
+          "ingredient": null,
+          "aliases": []
+        },
+        {
+          "number": 10,
+          "text": "1 cup blueberries",
+          "ingredient": null,
+          "aliases": []
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 450\u00b0F.",
+      "ingredients": []
+    },
+    {
+      "text": "Add eggs, milk, flour, vanilla extract, salt, sugar, melted butter, and lemon zest to a blender and blend until smooth.",
+      "ingredients": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "text": "Melt butter in an oven safe skillet over medium-high heat. Add blueberries, then immediately add batter and transfer to the oven. Bake for 15 minutes, remove, then enjoy!",
+      "ingredients": [
+        9,
+        10
+      ]
+    }
+  ],
+  "notes": [
+    "No notes at this time."
+  ],
+  "basedon": [
+    "https://www.instagram.com/reel/C5eu4e2PkvX/?igsh=MXA3ZTR4d3V2NGRvNQ=="
+  ],
+  "images": []
+}
