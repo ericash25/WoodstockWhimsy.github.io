@@ -3,7 +3,10 @@
 // Created 2/27/2026 by Eric Ashenfelter
 // Last updated 2/27/2026 by Eric Ashenfelter
 
+console.log("Loading recipe")
 
+let currentImageIndex = 0
+let currentImages = []
 
 // handy function to create links in the markdown text
 // via: https://stackoverflow.com/a/3890175/1167783
@@ -24,6 +27,47 @@ function linkify(str) {
 }
 
 async function loadRecipe() {
+
+    console.log("loadRecipe started.");
+
+    const params = new URLSearchParams(window.location.search);
+    console.log("params:", window.location.search);
+
+    const slug = params.get("recipe");
+    console.log("slug:", slug);
+
+    console.log("Query string:", window.location.search);
+    console.log("Slug:", slug);
+
+    if (!slug) {
+        console.error("No recipe slug found!");
+        window.location.href = "./";
+        return;
+    }
+
+    try {
+        const response = await fetch(`recipes/${slug}.json`);
+        const recipe = await response.json();
+
+        document.title = `${recipe.title} | Woodstock Whimsy`;
+
+        renderTitle(recipe);
+        renderInfo(recipe);
+        renderIngredients(recipe);
+        renderSteps(recipe);
+        renderNotes(recipe);
+        renderBasedOn(recipe);
+        renderImages(recipe.images, recipe.title);
+
+    } catch (e) {
+        console.error(e);
+        /*window.location.href = "./";*/
+    }
+}
+
+
+/* Old loadRecipe function
+async function loadRecipe() {
     
     const params = new URLSearchParams(window.location.search);
     const slug = params.get("recipe");
@@ -37,7 +81,7 @@ async function loadRecipe() {
         const response = await fetch(`recipes/${slug}.json`);
         const recipe = await response.json();
 
-        document.title = recipe.title + " | Woodstock Whimsy";
+        document.title = `${recipe.title} | Woodstock Whimsy`;
 
         document.getElementById("title").innerHTML = `<h1>${recipe.title}</h1>`;
         document.getElementById("info").innerHTML = linkify(recipe.info_html);
@@ -45,6 +89,8 @@ async function loadRecipe() {
         document.getElementById("steps").innerHTML = linkify(recipe.steps_html);
         document.getElementById("notes").innerHTML = linkify(recipe.notes_html);
         document.getElementById("basedon").innerHTML = linkify(recipe.basedon_html);
+
+        renderImages(recipe.images, recipe.title);
 
         // Ingredients checkboxes
         document.querySelectorAll("#ingredients li").forEach(li => {
@@ -61,11 +107,280 @@ async function loadRecipe() {
         window.location.href = "./"
     }
 }
+*/
+
+// -------------------------------------------
+// RENDER FUNCTIONS
+// -------------------------------------------
+
+function renderTitle(recipe) {
+    const title = recipe.title;
+    const descript = recipe.description;
+
+    let html = `
+        <h1>${title}</h1>
+        <p>${descript}</p>
+    `;
+
+    document.getElementById("title").innerHTML = html;
+}
+
+function renderInfo(recipe) {
+    const info = recipe.info;
+    const timeValue = info.time.split(":")[1].trim();
+    const servingsValue = info.servings.split(":")[1].trim();
+
+    let html = `
+        <ul>
+            <li><strong>Time:</strong> ${timeValue}</li>
+            <li><strong>Servings:</strong> ${servingsValue}</li>
+        </ul>
+    `;
+
+    document.getElementById("info").innerHTML = html;
+
+}
+
+function renderIngredients(recipe) {
+    const container = document.getElementById("ingredients");
+    container.innerHTML = "";
+
+    recipe.ingredients.forEach(section => {
+        const sectionDiv = document.createElement("div");
+        sectionDiv.className = "ingredient-section";
+
+        const header = document.createElement("h3");
+        header.textContent = section.section;
+        sectionDiv.appendChild(header);
+
+        const ul = document.createElement("ul");
+
+        section.items.forEach(item => {
+            const li = document.createElement("li");
+
+            li.dataset.ingredientNumber = item.number;
+
+            li.innerHTML = `
+                <label>
+                    <input type="checkbox">
+                    <span class="ingredient-text">
+                        ${linkify(item.text)}
+                    </span>
+                </label>
+            `;
+
+            ul.appendChild(li);
+        });
+
+        sectionDiv.appendChild(ul);
+        container.appendChild(sectionDiv);
+    });
+}
+
+function renderSteps(recipe) {
+    const container = document.getElementById("steps");
+    container.innerHTML = "";
+
+    const ol = document.createElement("ol");
+
+    recipe.steps.forEach(step => {
+        const li = document.createElement("li");
+        li.className = "step-item";
+
+        li.innerHTML = `
+            <input type="checkbox" class="step-check">
+            <span class="step-text">${linkify(step.text)}</span>
+        `;
+
+        li.addEventListener("click", () => {
+            if (li.classList.contains("active-step")) {
+                li.classList.remove("active-step");
+                clearIngredientHighlights();
+                return;
+            }
+
+            document.querySelectorAll(".active-step").forEach(step => {
+                step.classList.remove("active-step");
+            });
+
+            li.classList.add("active-step");
+            highlightIngredients(step.ingredients);
+        });
+
+        ol.appendChild(li);
+    });
+    container.appendChild(ol);
+}
+
+function renderNotes(recipe) {
+    if (!recipe.notes) return;
+    const container = document.getElementById("notes");
+    container.innerHTML = "";
+    
+    const ol = document.createElement("ol");
+
+    recipe.notes.forEach(note => {
+        const li = document.createElement("li");
+        li.className = "note-item";
+        li.innerHTML = note;
+
+        ol.appendChild(li);
+    });
+
+    container.appendChild(ol);
+}
+
+function renderBasedOn(recipe) {
+    if (!recipe.basedon) return;
+
+    const container = document.getElementById("basedon");
+    container.innerHTML = "";
+
+    const ul = document.createElement("ul");
+
+    recipe.basedon.forEach(basedon => {
+        const li = document.createElement("li");
+        li.className = "basedon-item";
+        li.innerHTML = `${linkify(basedon)}`;
+
+        ul.appendChild(li);
+    });
+
+    container.appendChild(ul);
+
+}
+
+function renderImages(images, title) {
+
+    const container = document.getElementById("image-gallery");
+
+    if(!images || images.length === 0) {
+        return
+    }
+
+    currentImages = images
+
+    let html = '<div class="recipe-gallery">';
+
+    images.forEach((src, index) => {
+        html += `
+            <img
+                src="${src}"
+                alt="${title} image ${index + 1}"
+                class="recipe-photo"
+                data-index="${index}"
+            >
+        `;
+    });
+
+    html += "</div>";
+
+    container.innerHTML = html;
+
+    document.querySelectorAll(".recipe-photo").forEach(img => {
+        img.addEventListener("click", () => {
+            currentImageIndex = parseInt(img.dataset.index)
+            openModal()
+        })
+    })
+}
+
+function openModal() {
+    const modal = document.getElementById("image-modal")
+    const modalImg = document.getElementById("modal-img")
+
+    modal.classList.remove("hidden")
+    modalImg.src = currentImages[currentImageIndex]
+}
+
+function closeModal() {
+    document.getElementById("image-modal").classList.add("hidden")
+}
+
+function showNext() {
+    currentImageIndex = (currentImageIndex + 1) % currentImages.length
+    openModal()
+}
+
+function showPrev() {
+    currentImageIndex = 
+        (currentImageIndex - 1 + currentImages.length) % currentImages.length
+    openModal()
+}
+
+// -------------------------------------------
+// INGREDIENT HIGHLIGHTING
+// -------------------------------------------
+
+function highlightIngredients(ingredientIds) {
+
+    clearIngredientHighlights();
+
+    if (!ingredientIds) return;
+
+    document.querySelectorAll("#ingredients li").forEach(li => {
+
+        const ingredientNumber =
+            Number(li.dataset.ingredientNumber);
+
+        if (
+            ingredientIds.includes(
+                ingredientNumber
+            )
+        ) {
+            li.classList.add("highlight");
+        }
+
+    });
+}
+
+function clearIngredientHighlights() {
+    document.querySelectorAll("#ingredients li").forEach(li => {
+        li.classList.remove("highlight");
+    });
+}
+
+// -------------------------------------------
+// INIT
+// -------------------------------------------
 
 loadRecipe();
 
+document.addEventListener("DOMContentLoaded", () => {
+
+    document.getElementById("modal-close").onclick = closeModal
+    document.getElementById("modal-next").onclick = showNext
+    document.getElementById("modal-prev").onclick = showPrev
+
+    document.getElementById("image-modal").addEventListener("click", (e)=>{
+        if(e.target.id === "image-modal"){
+            closeModal()
+        }
+    })
+
+    document.addEventListener("keydown", (e)=>{
+
+        const modal = document.getElementById("image-modal")
+
+        if(modal.classList.contains("hidden")) return
+
+        if(e.key === "Escape") closeModal()
+        if(e.key === "ArrowRight") showNext()
+        if(e.key === "ArrowLeft") showPrev()
+    })
+
+})
+
+
+
+
+
+// -------------------------------------------
+// OLD CODE
+// -------------------------------------------
 
 /*
+OLD CODE
 // options:
 
 var shortenURLs = false;

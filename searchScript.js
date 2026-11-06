@@ -65,21 +65,71 @@ fetch("tags.json")
 });
 
 function buildRecipeIndex() {
+    
     const seen = new Set();
+    allRecipes = [];
 
-    Object.values(tagData).forEach(recipeList => {
-        recipeList.forEach(recipe => {
+    Object.values(tagData).forEach(category => {
 
-            if(!seen.has(recipe.title)) {
-                allRecipes.push(recipe);
-                seen.add(recipe.title);
-            }
+        Object.values(category).forEach(recipeList => {
+
+            recipeList.forEach(recipe => {
+
+                if(!seen.has(recipe.title)) {
+                    allRecipes.push(recipe);
+                    seen.add(recipe.title);
+                }
+            });
         });
     });
 }
 
 
 function buildTagList(){
+
+    tagList.innerHTML = "";
+
+    Object.keys(tagData).forEach(category => {
+
+        const categoryDiv = document.createElement("div");
+        categoryDiv.classList.add("tag-category");
+
+        const header = document.createElement("h3");
+        header.textContent = category;
+
+        const ul = document.createElement("ul");
+
+        const tags = Object.keys(tagData[category]).sort();
+
+        tags.forEach(tag => {
+
+            const li = document.createElement("li");
+            const link = document.createElement("a");
+            link.href = `search.html?tag=${tag}`;
+
+            link.textContent = tag;
+
+            link.addEventListener("click", function(e) {
+                e.preventDefault();
+                showResults(tagData[category][tag], `Category: ${tag}`);
+                history.replaceState({}, "", `search.html?tag=${tag}`);
+            });
+
+            li.appendChild(link);
+            ul.appendChild(li);
+        });
+
+        categoryDiv.appendChild(header);
+        categoryDiv.appendChild(ul);
+        tagList.appendChild(categoryDiv);
+
+    });
+    
+
+    
+
+
+    /* Current tag list build 
 
     const tags = Object.keys(tagData).sort();
 
@@ -102,7 +152,7 @@ function buildTagList(){
         tagList.appendChild(li);
 
     });
-
+    */
 }
 
 
@@ -150,8 +200,13 @@ function checkURLTag(){
 
     const tag = params.get("tag");
 
-    if(tag && tagData[tag]){
-        showResults(tagData[tag], `Category: ${tag}`);
+    if (!tag) return;
+
+    for (const category in tagData) {
+        if (tagData[category][tag]) {
+            showResults(tagData[category][tag], `Category: ${tag}`);
+            return;
+        }
     }
 
 }
@@ -180,7 +235,7 @@ searchBarInput.addEventListener("input", function(){
         div.innerText = recipe.title;
 
         div.onclick = () => {
-            window.location.href = recipe.file;
+            window.location.href = `recipepage.html?recipe=${recipe.slug}`;
         };
 
         suggestionsBox.appendChild(div);
@@ -205,7 +260,7 @@ searchBarInput.addEventListener('keydown', function(e) {
 
 /* Hide search suggestions if click outside of input */
 searchBarInput.addEventListener('click', function(e) {
-    if (!WebTransportDatagramDuplexStream.contains(e.target)) {
+    if (!searchBarInput.contains(e.target)) {
         suggestionsBox.classList.add("hidden");
     }
 });

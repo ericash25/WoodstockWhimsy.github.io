@@ -17,6 +17,13 @@ window.onpageshow = function(event) {
 	}
 };
 
+document.querySelectorAll('*').forEach(el => {
+  if (el.offsetWidth > document.documentElement.clientWidth) {
+    console.log('Overflowing element:', el);
+    el.style.outline = '2px solid red';
+  }
+});
+
 async function loadRecipeList() {
 
     const response = await fetch('recipes.json');
@@ -45,7 +52,7 @@ async function loadRecipeList() {
             listHTML += "<li>";
         }
 
-        listHTML += `<a href="recipepage.html?recipe=${slug}">${name}</a></li>`;
+        listHTML += `<div class="recipeCard"><a href="recipepage.html?recipe=${slug}"><h3>${name}</h3></a></div></li>`;
 
         prevLetter = firstLetter;
         

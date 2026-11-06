@@ -4,7 +4,8 @@
     <title>Woodstock Whimsy</title>
 
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    
 	<link href='stylesheet.css' rel='stylesheet'>
 	
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,13 +29,34 @@
 	<nav id="main-menu">
 		<a href="./">Home</a>
 		<a href="./search.html">Search</a>
+        <a href="./addrecipe.html">Add Recipe</a>
 	</nav>
 
     <main id="wrapper" class="recipe">
         
         <section id="title"></section>
-        <section id="recipe-img"></section>
+        <section id="recipe-img">
+            <div id="image-gallery">
+
+            </div>
+            <div id="image-modal" class="modal hidden">
+                <span id="modal-close">X</span>
+
+                <img id="modal-img" src="" alt="Recipe Image">
+
+                <div id="modal-prev" class="modal-nav">&#10094</div>
+                <div id="modal-next" class="modal-nav">&#10095</div>
+            </div>
+        </section>
         <section id="info"></section>
+        <div id="scale-container">
+            <p>Scale:</p>
+            <button class="button">0.5x</button>
+            <button class="button">1x</button>
+            <button class="button">2x</button>
+            <button class="button">3x</button>
+            <input id="customScale" class="button" text="Custom">
+        </div>
         <div id="recipe-container">
             <div id="ingredients-container">
                 <h2>Ingredients</h2>
@@ -54,7 +76,7 @@
         </div>
         
     </main>
-
+    
 </body>
 
 </html>

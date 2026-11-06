@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Woodstock Whimsy</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link href='stylesheet.css' rel='stylesheet'>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+	<script src="addrecipe.js" defer></script>
+
+</head>
+
+<body>
+    <header class='banner'>
+		<img src="images/chef-woodstock.png" class="banner-img">
+		<div class="banner-text">
+			<h1 class="banner-title">Woodstock Whimsy</h1>
+			<h2 class="banner-subtitle">Anna and Eric's Personal Recipe Collection</h2>
+		</div>
+		<img src="images/woodstock-st-sign.png" class="banner-img">
+	</header>
+
+	<nav id="main-menu">
+		<a href="./">Home</a>
+		<a href="./search.html">Search</a>
+        <a href="./addrecipe.html">Add Recipe</a>
+	</nav>
+
+    <main id="add-recipe">
+
+        <div class="recipe-form-container">
+
+            <h1>Add A Recipe</h1>
+
+            <form id="recipeForm">
+
+                <label for="title">Recipe Name</label>
+                <input type="text" id="title" required>
+
+                <label for="description">Description</label>
+                <textarea id="description" rows="3"></textarea>
+
+                <label for="time">Time</label>
+                <input type="text" id="time">
+
+                <label for="servings">Servings</label>
+                <input type="text" id="servings">
+
+                <h2>Ingredients</h2>
+
+                <div class="editor-preview-layout">
+
+                    <div class="editor-column">
+                        <div id="ingredient-sections"></div>
+                    </div>
+
+                    <div class="number-panel">
+                        <h3>Ingredient Numbers</h3>
+                        <ul id="ingredient-number-list"></ul>
+                    </div>
+
+                </div>
+
+                <button
+                    type="button"
+                    id="enableIngredientSections">
+                    Enable Ingredient Sections
+                </button>
+
+                <h2>Steps</h2>
+
+                <div class="editor-preview-layout">
+
+                    <div class="editor-column">
+                        <div id="step-sections"></div>
+                    </div>
+
+                    <div class="number-panel">
+                        <h3>Step Numbers</h3>
+                        <ul id="step-number-list"></ul>
+                    </div>
+
+                </div>
+
+                <button
+                    type="button"
+                    id="enableStepSections">
+                    Enable Step Sections
+                </button>
+
+                <label for="notes">
+                    Notes
+                </label>
+
+                <textarea id="notes" rows="4"></textarea>
+
+                <label for="basedon">
+                    Based On
+                </label>
+
+                <textarea id="basedon" rows="4"></textarea>
+
+                <label for="tags">
+                    Tags
+                </label>
+
+                <input
+                    type="text"
+                    id="tags"
+                    placeholder="lunch, easy">
+
+                <div class="button-row">
+
+                    <button
+                        type="button"
+                        id="previewBtn">
+                        Generate Preview
+                    </button>
+
+                    <button
+                        type="button"
+                        id="submitBtn">
+                        Submit Recipe
+                    </button>
+
+                </div>
+
+                <div id="submission-status"></div>
+
+            </form>
+
+        </div>
+
+        <h2>Generated Markdown</h2>
+
+        <pre id="preview"></pre>
+
+    </main>
+
+
+
+</body>
+
+</html>
+
+
